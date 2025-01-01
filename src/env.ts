@@ -3,6 +3,6 @@ import { z } from 'zod';
 
 export const env = z
   .object({
-    NODE_ENV: z.enum(['development', 'production']).default('development'),
+    NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
   })
   .parse(process.env);
