@@ -18,15 +18,11 @@
     "rules": {
       "recommended": true,
       "suspicious": {
-        "noExplicitAny": "off",
-        "noConfusingVoidType": "off"
+        "noExplicitAny": "warn"
       },
       "style": {
         "noUselessElse": "off",
         "noNonNullAssertion": "off"
-      },
-      "complexity": {
-        "noForEach": "off"
       }
     }
   }
