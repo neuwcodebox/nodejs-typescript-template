@@ -6,6 +6,7 @@
   "repository": "NeuroWhAI/nodejs-typescript-template",
   "license": "MIT",
   "main": "index.ts",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "tsx watch --clear-screen=false src/index.ts | pino-pretty",
