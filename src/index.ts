@@ -5,8 +5,12 @@ logger.info(`Starting up in ${env.NODE_ENV} mode`);
 
 const onCloseSignal = () => {
   logger.info('sigint received, shutting down');
+
+  setTimeout(() => process.exit(1), 10000).unref(); // Force shutdown after timeout
+
   // Do some cleanup here
-  setTimeout(() => process.exit(1), 10000).unref(); // Force shutdown after 10s
+
+  process.exit(0); // Exit gracefully
 };
 
 process.on('SIGINT', onCloseSignal);
