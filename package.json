@@ -20,22 +20,22 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "dotenv": "^17.0.0",
-    "pino": "^9.4.0",
-    "zod": "^4.0.0"
+    "dotenv": "^17.2.1",
+    "pino": "^9.9.0",
+    "zod": "^4.0.17"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.0.6",
-    "@types/cors": "^2.8.17",
+    "@biomejs/biome": "^2.2.0",
+    "@types/cors": "^2.8.19",
     "husky": "^9.1.7",
-    "lint-staged": "^16.0.0",
-    "pino-pretty": "^13.0.0",
-    "rimraf": "^6.0.0",
-    "tsup": "^8.0.2",
-    "tsx": "^4.7.2",
-    "typescript": "^5.4.4",
-    "vite-tsconfig-paths": "^5.0.0",
-    "vitest": "^3.0.0"
+    "lint-staged": "^16.1.5",
+    "pino-pretty": "^13.1.1",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
   },
   "lint-staged": {
     "*.{js,ts,cjs,mjs,d.cts,d.mts,json,jsonc}": [

@@ -32,7 +32,8 @@
         },
         "noUnusedFunctionParameters": {
           "fix": "none",
-          "level": "warn"
+          "level": "warn",
+          "options": {}
         }
       }
     }
